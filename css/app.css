@@ -1,0 +1,61 @@
+
+body {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    /*background-color: #BAE0C3;*/
+}
+
+.colour-progress {
+    margin: 3% 0;
+}
+/**
+ * Colour Voting Section
+ */
+.progress {
+    height: 40px;
+    /*background-color: #BAE0C3;*/
+    /*border-color: #BAE0C3;*/
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+.progress:hover {
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: alpha(opacity=50);
+    -moz-opacity:0.5;
+    -khtml-opacity: 0.5;
+    opacity: 0.5;
+}
+
+.meter {
+    width: 0;
+    -o-transition:1.5s;
+    -ms-transition:1.5s;
+    -moz-transition:1.5s;
+    -webkit-transition:1.5s;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+/*
+ * Github Link
+ */
+#github-link {
+    position: fixed;
+    right: 1.5em;
+    bottom: 1.5em;
+    opacity: 0.6;
+    -o-transition:.5s;
+    -ms-transition:.5s;
+    -moz-transition:.5s;
+    -webkit-transition:.5s;
+    transition:.5s;
+}
+
+#github-link:hover {
+    opacity: 1;
+}

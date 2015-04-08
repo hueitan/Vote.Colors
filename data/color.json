@@ -1,0 +1,38 @@
+[
+    {
+        "hex": "#FFF",
+        "name": "White"
+    },
+    {
+        "hex": "#FF0000",
+        "name": "Red"
+    },
+    {
+        "hex": "#FF7F00",
+        "name": "Orange"
+    },
+    {
+        "hex": "#FFFF00",
+        "name": "Yellow"
+    },
+    {
+        "hex": "#00FF00",
+        "name": "Green"
+    },
+    {
+        "hex": "#0000FF",
+        "name": "Blue"
+    },
+    {
+        "hex": "#4B0082",
+        "name": "Indigo"
+    },
+    {
+        "hex": "#8F00FF",
+        "name": "Violet"
+    },
+    {
+        "hex": "#000",
+        "name": "Black"
+    }
+]
