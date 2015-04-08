@@ -15,11 +15,11 @@ angular.module('myApp.controllers', []).
         $http = $injector.get('$http');
 
         // Main Function
-        $http.get('data/color.json')
+        $http.get('data/color.json?' + (1 * new Date()))
             .success(function (data) {
                 $scope.colors = data;
 
-                $http.get('data/vote.json')
+                $http.get('data/vote.json?' + (1 * new Date()))
                     .success(function (data) {
                         $scope.votes = data;
 
