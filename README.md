@@ -3,6 +3,8 @@ Vote.Colors
 
 Commit/Vote For Your Color
 
+[Vote Result](http://huei90.github.io/Vote.Colors/)
+
 How to Vote
 ===
 
